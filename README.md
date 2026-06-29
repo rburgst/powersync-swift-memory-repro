@@ -2,6 +2,10 @@
 
 Minimal standalone Swift package reproducing a PowerSync crash on the first real DB operation when `dbFilename: ":memory:"` is used under XCTest with a minimal `failed_syncs` schema.
 
+## Update
+
+This works fine with powersync-swift 1.14.4. 
+
 ## Requirements
 
 - macOS
